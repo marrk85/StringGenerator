@@ -1,4 +1,4 @@
-# 🖤 Pyrogram and Telethon String Session Generator Bot [@MarrkStringBot](https://telegram.me/MarrkStringBot) 🖤
+# 🖤String Session Generator🖤
 
 > Thanks a lot for starring this repository. A star from you made my day. This appreciates me to keep doing such things.
 
