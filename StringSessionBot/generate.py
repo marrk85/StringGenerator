@@ -114,7 +114,7 @@ async def generate_session(bot, msg, telethon=False):
         string_session = client.session.save()
     else:
         string_session = await client.export_session_string()
-    text = "**{} sᴛʀɪɴɢ sᴇssɪᴏɴ** \n\n`{}` \n\n ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ MarrkStringBot".format("TELETHON" if telethon else "PYROGRAM", string_session)
+    text = "**{} sᴛʀɪɴɢ sᴇssɪᴏɴ** \n\n`{}` \n\n ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ @MarrkStringBot".format("TELETHON" if telethon else "PYROGRAM", string_session)
     await client.send_message("me", text)
     await client.disconnect()
     await phone_code_msg.reply("sᴜᴄᴄᴇssꜰᴜʟʟʏ ɢᴇɴᴇʀᴀᴛᴇᴅ {} sᴛʀɪɴɢ sᴇssɪᴏɴ. \n\nᴘʟᴇᴀsᴇ ᴄʜᴇᴄᴋ ʏᴏᴜʀ sᴀᴠᴇᴅ ᴍᴇssᴀɢᴇs ! \n\nBy @marrkmusic".format("telethon" if telethon else "pyrogram"))
