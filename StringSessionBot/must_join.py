@@ -22,7 +22,7 @@ async def must_join_channel(bot: Client, msg: Message):
                     f"ʏᴏᴜ ᴍᴜsᴛ ᴊᴏɪɴ ᴛʜɪs [ᴄʜᴀɴɴᴇʟ]({link}) ᴛᴏ ᴜsᴇ ᴍᴇ. ᴀꜰᴛᴇʀ ᴊᴏɪɴɪɴɢ sᴇɴᴅ /start ᴀɢᴀɪɴ !",
                     disable_web_page_preview=True,
                     reply_markup=InlineKeyboardMarkup([
-                        [InlineKeyboardButton("💖 ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ 💖", url=link)]
+                        [InlineKeyboardButton("ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ", url=link)]
                     ])
                 )
                 await msg.stop_propagation()
